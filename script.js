@@ -40,3 +40,4 @@ console.log(img);
 //Borra el contenido del pid y agrega la imagen creada anteriormente al contenido de pid
 pid.innerHTML = '';
 pid.appendChild(img);
+//Otra forma en la cual se reemplaza toda la etiqueta pid por la img pid.replaceWith(img);
